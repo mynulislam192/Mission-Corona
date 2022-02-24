@@ -1,3 +1,133 @@
+body{
+    font-family: 'Poppins',
+    sans-serif;
+    /* font-family: 'Redressed',
+    cursive; */
+    margin: 0;
+    padding: 0;
+}
+/*------for all flex------*/
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+#line{
+    display: flex;
+    margin-top: 50px;
+}
+.line1{
+border-left: 5px solid tomato;
+border-radius: 10px;
+height: 130px;
+margin-top: 55px;
+margin-right: 5px;
+}
+.title{
+    margin-bottom:0;
+}
+
+
+.application-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: 50px ;
+    display: flex;
+    margin-bottom: 100px; 
+
+}
+.application-section2{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: right ;
+    
+    display: flex;
+    margin-bottom: 100px; 
+
+}
+
+.half-width{
+    width: 40%;
+margin-left: 80px;
+}
+
+.half-width img {
+    width: 80%;
+    height: 100%;
+    margin-left:70px;
+    
+
+}
+.half-width h2 {
+    margin-top: 100px;
+    font-style: bold;
+}
+
+.tomato-color {
+    color: #FB8E49;
+}
+
+.centre {
+    margin-top: 50px;
+    margin-left: 160px;
+}
+.top-half {
+    width: 80%;
+    padding: 2%;
+
+}
+
+.top-half img {
+    width: 80%;
+    height: 100%;
+  
+}
+
+
+.link-button {
+    background-image: linear-gradient(to right, #FB8E49, #FD4F30);
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
 h1{
+    
     font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- footer section------*/
+
+#footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer h1 {
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+
+#footer p {
+    font-family: 'Redressed',cursive;
+    font-weight: 200;
+    font-size: 15px;
+    color: white;
 }
